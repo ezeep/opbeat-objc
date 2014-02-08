@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C114B1D818A6686D00B79FB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C114B1D718A6686D00B79FB6 /* Cocoa.framework */; };
+		C114B1E218A6686D00B79FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C114B1E018A6686D00B79FB6 /* InfoPlist.strings */; };
+		C114B1ED18A6686D00B79FB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C114B1EC18A6686D00B79FB6 /* XCTest.framework */; };
+		C114B1EE18A6686D00B79FB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C114B1D718A6686D00B79FB6 /* Cocoa.framework */; };
+		C114B1F118A6686D00B79FB6 /* opbeat-objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C114B1D418A6686D00B79FB6 /* opbeat-objc.framework */; };
+		C114B1F718A6686D00B79FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C114B1F518A6686D00B79FB6 /* InfoPlist.strings */; };
+		C114B1F918A6686D00B79FB6 /* opbeat_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C114B1F818A6686D00B79FB6 /* opbeat_objcTests.m */; };
+		C114B20418A6694100B79FB6 /* RavenJSONUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C114B20218A6694100B79FB6 /* RavenJSONUtilities.h */; };
+		C114B20518A6694100B79FB6 /* RavenJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C114B20318A6694100B79FB6 /* RavenJSONUtilities.m */; };
+		C114B20818A669B800B79FB6 /* OpbeatClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C114B20618A669B800B79FB6 /* OpbeatClient.h */; };
+		C114B20918A669B800B79FB6 /* OpbeatClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C114B20718A669B800B79FB6 /* OpbeatClient.m */; };
+		C1986EA118A670040038D047 /* OpbeatConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C1986E9F18A670040038D047 /* OpbeatConfig.h */; };
+		C1986EA218A670040038D047 /* OpbeatConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C1986EA018A670040038D047 /* OpbeatConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C114B1EF18A6686D00B79FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C114B1CB18A6686D00B79FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C114B1D318A6686D00B79FB6;
+			remoteInfo = "opbeat-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C114B1D418A6686D00B79FB6 /* opbeat-objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "opbeat-objc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C114B1D718A6686D00B79FB6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C114B1DA18A6686D00B79FB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C114B1DB18A6686D00B79FB6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C114B1DC18A6686D00B79FB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C114B1DF18A6686D00B79FB6 /* opbeat-objc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "opbeat-objc-Info.plist"; sourceTree = "<group>"; };
+		C114B1E118A6686D00B79FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C114B1E318A6686D00B79FB6 /* opbeat-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opbeat-objc-Prefix.pch"; sourceTree = "<group>"; };
+		C114B1EB18A6686D00B79FB6 /* opbeat-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opbeat-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C114B1EC18A6686D00B79FB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C114B1F418A6686D00B79FB6 /* opbeat-objcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "opbeat-objcTests-Info.plist"; sourceTree = "<group>"; };
+		C114B1F618A6686D00B79FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C114B1F818A6686D00B79FB6 /* opbeat_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opbeat_objcTests.m; sourceTree = "<group>"; };
+		C114B20218A6694100B79FB6 /* RavenJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RavenJSONUtilities.h; sourceTree = "<group>"; };
+		C114B20318A6694100B79FB6 /* RavenJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RavenJSONUtilities.m; sourceTree = "<group>"; };
+		C114B20618A669B800B79FB6 /* OpbeatClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpbeatClient.h; sourceTree = "<group>"; };
+		C114B20718A669B800B79FB6 /* OpbeatClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpbeatClient.m; sourceTree = "<group>"; };
+		C1986E9F18A670040038D047 /* OpbeatConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpbeatConfig.h; sourceTree = "<group>"; };
+		C1986EA018A670040038D047 /* OpbeatConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpbeatConfig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C114B1D018A6686D00B79FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B1D818A6686D00B79FB6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C114B1E818A6686D00B79FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B1EE18A6686D00B79FB6 /* Cocoa.framework in Frameworks */,
+				C114B1ED18A6686D00B79FB6 /* XCTest.framework in Frameworks */,
+				C114B1F118A6686D00B79FB6 /* opbeat-objc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C114B1CA18A6686D00B79FB6 = {
+			isa = PBXGroup;
+			children = (
+				C114B1DD18A6686D00B79FB6 /* opbeat-objc */,
+				C114B1F218A6686D00B79FB6 /* opbeat-objcTests */,
+				C114B1D618A6686D00B79FB6 /* Frameworks */,
+				C114B1D518A6686D00B79FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C114B1D518A6686D00B79FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1D418A6686D00B79FB6 /* opbeat-objc.framework */,
+				C114B1EB18A6686D00B79FB6 /* opbeat-objcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C114B1D618A6686D00B79FB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1D718A6686D00B79FB6 /* Cocoa.framework */,
+				C114B1EC18A6686D00B79FB6 /* XCTest.framework */,
+				C114B1D918A6686D00B79FB6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C114B1D918A6686D00B79FB6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1DA18A6686D00B79FB6 /* Foundation.framework */,
+				C114B1DB18A6686D00B79FB6 /* CoreData.framework */,
+				C114B1DC18A6686D00B79FB6 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C114B1DD18A6686D00B79FB6 /* opbeat-objc */ = {
+			isa = PBXGroup;
+			children = (
+				C114B20618A669B800B79FB6 /* OpbeatClient.h */,
+				C114B20718A669B800B79FB6 /* OpbeatClient.m */,
+				C114B20218A6694100B79FB6 /* RavenJSONUtilities.h */,
+				C114B20318A6694100B79FB6 /* RavenJSONUtilities.m */,
+				C1986E9F18A670040038D047 /* OpbeatConfig.h */,
+				C1986EA018A670040038D047 /* OpbeatConfig.m */,
+				C114B1DE18A6686D00B79FB6 /* Supporting Files */,
+			);
+			path = "opbeat-objc";
+			sourceTree = "<group>";
+		};
+		C114B1DE18A6686D00B79FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1DF18A6686D00B79FB6 /* opbeat-objc-Info.plist */,
+				C114B1E018A6686D00B79FB6 /* InfoPlist.strings */,
+				C114B1E318A6686D00B79FB6 /* opbeat-objc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C114B1F218A6686D00B79FB6 /* opbeat-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1F818A6686D00B79FB6 /* opbeat_objcTests.m */,
+				C114B1F318A6686D00B79FB6 /* Supporting Files */,
+			);
+			path = "opbeat-objcTests";
+			sourceTree = "<group>";
+		};
+		C114B1F318A6686D00B79FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C114B1F418A6686D00B79FB6 /* opbeat-objcTests-Info.plist */,
+				C114B1F518A6686D00B79FB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C114B1D118A6686D00B79FB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B20818A669B800B79FB6 /* OpbeatClient.h in Headers */,
+				C114B20418A6694100B79FB6 /* RavenJSONUtilities.h in Headers */,
+				C1986EA118A670040038D047 /* OpbeatConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C114B1D318A6686D00B79FB6 /* opbeat-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C114B1FC18A6686D00B79FB6 /* Build configuration list for PBXNativeTarget "opbeat-objc" */;
+			buildPhases = (
+				C114B1CF18A6686D00B79FB6 /* Sources */,
+				C114B1D018A6686D00B79FB6 /* Frameworks */,
+				C114B1D118A6686D00B79FB6 /* Headers */,
+				C114B1D218A6686D00B79FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "opbeat-objc";
+			productName = "opbeat-objc";
+			productReference = C114B1D418A6686D00B79FB6 /* opbeat-objc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C114B1EA18A6686D00B79FB6 /* opbeat-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C114B1FF18A6686D00B79FB6 /* Build configuration list for PBXNativeTarget "opbeat-objcTests" */;
+			buildPhases = (
+				C114B1E718A6686D00B79FB6 /* Sources */,
+				C114B1E818A6686D00B79FB6 /* Frameworks */,
+				C114B1E918A6686D00B79FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C114B1F018A6686D00B79FB6 /* PBXTargetDependency */,
+			);
+			name = "opbeat-objcTests";
+			productName = "opbeat-objcTests";
+			productReference = C114B1EB18A6686D00B79FB6 /* opbeat-objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C114B1CB18A6686D00B79FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "ezeep GmbH";
+				TargetAttributes = {
+					C114B1EA18A6686D00B79FB6 = {
+						TestTargetID = C114B1D318A6686D00B79FB6;
+					};
+				};
+			};
+			buildConfigurationList = C114B1CE18A6686D00B79FB6 /* Build configuration list for PBXProject "opbeat-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C114B1CA18A6686D00B79FB6;
+			productRefGroup = C114B1D518A6686D00B79FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C114B1D318A6686D00B79FB6 /* opbeat-objc */,
+				C114B1EA18A6686D00B79FB6 /* opbeat-objcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C114B1D218A6686D00B79FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B1E218A6686D00B79FB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C114B1E918A6686D00B79FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B1F718A6686D00B79FB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C114B1CF18A6686D00B79FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1986EA218A670040038D047 /* OpbeatConfig.m in Sources */,
+				C114B20518A6694100B79FB6 /* RavenJSONUtilities.m in Sources */,
+				C114B20918A669B800B79FB6 /* OpbeatClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C114B1E718A6686D00B79FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114B1F918A6686D00B79FB6 /* opbeat_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C114B1F018A6686D00B79FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C114B1D318A6686D00B79FB6 /* opbeat-objc */;
+			targetProxy = C114B1EF18A6686D00B79FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C114B1E018A6686D00B79FB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C114B1E118A6686D00B79FB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C114B1F518A6686D00B79FB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C114B1F618A6686D00B79FB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C114B1FA18A6686D00B79FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C114B1FB18A6686D00B79FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C114B1FD18A6686D00B79FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opbeat-objc/opbeat-objc-Prefix.pch";
+				INFOPLIST_FILE = "opbeat-objc/opbeat-objc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C114B1FE18A6686D00B79FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opbeat-objc/opbeat-objc-Prefix.pch";
+				INFOPLIST_FILE = "opbeat-objc/opbeat-objc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C114B20018A6686D00B79FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/opbeat-objc.framework/Versions/A/opbeat-objc";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opbeat-objc/opbeat-objc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "opbeat-objcTests/opbeat-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C114B20118A6686D00B79FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/opbeat-objc.framework/Versions/A/opbeat-objc";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opbeat-objc/opbeat-objc-Prefix.pch";
+				INFOPLIST_FILE = "opbeat-objcTests/opbeat-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C114B1CE18A6686D00B79FB6 /* Build configuration list for PBXProject "opbeat-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C114B1FA18A6686D00B79FB6 /* Debug */,
+				C114B1FB18A6686D00B79FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C114B1FC18A6686D00B79FB6 /* Build configuration list for PBXNativeTarget "opbeat-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C114B1FD18A6686D00B79FB6 /* Debug */,
+				C114B1FE18A6686D00B79FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C114B1FF18A6686D00B79FB6 /* Build configuration list for PBXNativeTarget "opbeat-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C114B20018A6686D00B79FB6 /* Debug */,
+				C114B20118A6686D00B79FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C114B1CB18A6686D00B79FB6 /* Project object */;
+}
